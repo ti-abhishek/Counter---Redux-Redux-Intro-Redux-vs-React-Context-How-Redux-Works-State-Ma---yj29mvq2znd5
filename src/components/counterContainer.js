@@ -16,3 +16,5 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 // add code here
+
+export {mapStateToProps, mapDispatchToProps}
