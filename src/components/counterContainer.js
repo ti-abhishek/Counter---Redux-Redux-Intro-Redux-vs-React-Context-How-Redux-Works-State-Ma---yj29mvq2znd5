@@ -16,5 +16,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 // add code here
-
-export {mapStateToProps, mapDispatchToProps}
+export default connect(mapStateToProps, mapDispatchToProps)(Counter)
